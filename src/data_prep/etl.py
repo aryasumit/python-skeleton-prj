@@ -11,8 +11,9 @@ from utils.validator import is_non_empty_and_has_columns
 # Get the logger object to be used this file
 log = logging.getLogger('etl')
 
-
 def transform():
+    global customer_df
     customer_df = pd.read_csv(get_path_raw_file("customer/cust_data.csv"))
     is_non_empty_and_has_columns(customer_df, ['id', 'name', 'age'])
     log.info(f'The customer row count is: {customer_df.shape[0]}')
+    

@@ -1,4 +1,4 @@
 data:
-  raw: "C:/DATA/Portfolio/python-skeleton-project/data/raw"
-  intermediate: "C:/DATA/Portfolio/python-skeleton-project/data/intermediate"
-  processed: "C:/DATA/Portfolio/python-skeleton-project/data/processed"
+  raw: "C:/DATA/Portfolio/python-skeleton-prj/data/raw"
+  intermediate: "C:/DATA/Portfolio/python-skeleton-prj/data/intermediate"
+  processed: "C:/DATA/Portfolio/python-skeleton-prj/data/processed"

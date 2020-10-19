@@ -6,7 +6,6 @@ import os
 
 from utils.config_reader import get_config
 
-
 def get_path_raw_file(relative_path):
     return os.path.join(get_config(['data', 'raw']), relative_path)
 

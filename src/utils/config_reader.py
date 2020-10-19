@@ -8,8 +8,9 @@ from functools import reduce
 
 # Inferring current path
 # current_path = os.path.abspath(os.path.dirname(__file__))
-current_path = "C:/Data/Portfolio/python-skeleton-project/src/utils"
-config_file_path = os.path.join(current_path, "..", "..", "configs", "file_paths.yml")
+current_path = "C:/Data/Portfolio/python-skeleton-prj/src"
+os.chdir(current_path)
+config_file_path = os.path.join(current_path, "..", "configs", "file_paths.yml")
 
 log = logging.getLogger('config_reader')
 
